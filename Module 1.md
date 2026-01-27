@@ -75,5 +75,7 @@ Structure: Think of AWS services as "LEGO building blocks." You don't just use o
 Ways to interact with AWS
 
 1.AWS management console. Graphical interface
+
 2.CLI. Access to services by discrete commands or scripts
+
 3.Software DEvelopmennt Kits (SDKs). Access services directly from you code.
