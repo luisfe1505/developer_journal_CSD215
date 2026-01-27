@@ -40,4 +40,43 @@ AWS Identity and Access Management (IAM)
 
 (Might be charges associated for instances that those use)
 
+AWS ORGANIZATIONS
+
+We use AWS organizations for consolidated billing between separate accounts
+
+Free account management system
+
+Organizational tree
+
+With each branch representing a different department or team
+
+Include consolidated billing and organization security management capabilities
+
+Terminology:
+
+Organizational units (OU): branch for accounts
+
+A branch can also contain other branches
+
+Can only have one parent
+
+And each branch can only be a member of exactly one branch
+
+An account is a standard AWS account that contains AWS resources
+<img width="411" height="239" alt="image" src="https://github.com/user-attachments/assets/3b87b56d-0b9d-451f-8060-a97aae76455b" />
+
+Plans
+
+Basic: free, support for account and billing questions and service limit increases
+
+Developer support: support for early development on AWs
+
+Business Suport: customers that run production workloads
+
+Enterprise support: customers that run business and mission critical workloads
+
+![Uploading image.png…]()
+
+
+
 
