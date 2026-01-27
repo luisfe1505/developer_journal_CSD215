@@ -72,8 +72,8 @@ Delivery: Accessed via the internet.
 Pricing: Pay-as-you-go (Operational Expense).
 Structure: Think of AWS services as "LEGO building blocks." You don't just use one; you combine different services to build complex, scalable, and custom solutions.
 <img width="861" height="491" alt="image" src="https://github.com/user-attachments/assets/ca5d3c75-7db9-4152-907c-1995516c9a44" />
-ays to interact with AWS
+Ways to interact with AWS
 
-AWS management console. Graphical interface
-CLI. Access to services by discrete commands or scripts
-Software DEvelopmennt Kits (SDKs). Access services directly from you code.
+1.AWS management console. Graphical interface
+2.CLI. Access to services by discrete commands or scripts
+3.Software DEvelopmennt Kits (SDKs). Access services directly from you code.
