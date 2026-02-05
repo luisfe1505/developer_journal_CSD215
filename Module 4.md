@@ -74,4 +74,16 @@
      - Used for: Logging into the website (AWS Management Console).
      - Needs: Username + Password.
      - If MFA is on, you need the code too.
+    
+- IAM Authorization
+    - IAM users do not have access to anything and you need to explicitly grant access to each service
+    - Only the minimal privilege needed for the users
+
+  <img width="631" height="280" alt="image" src="https://github.com/user-attachments/assets/4f863371-3ef5-48b2-b607-aab31d237f94" />
+
+  
+
+
+
+
   
