@@ -44,23 +44,23 @@
    -  NOTHING technical. I don't touch code or servers. I just use the software.
 
 - AWS IAM (Identity & Access Management)
-- The Basics;
-- What is it: The "Bouncer" of AWS. Controls who can get in and what they can touch (servers, databases, etc.).
-- Cost: Free (Global service, doesn't matter which region you are in).
-- Main Job: Handles the "Who, What, and How."
-- Authentication: Who are you?
-- Authorization: What are you allowed to do?
+  - The Basics;
+  - What is it: The "Bouncer" of AWS. Controls who can get in and what they can touch (servers, databases, etc.).
+  - Cost: Free (Global service, doesn't matter which region you are in).
+  - Main Job: Handles the "Who, What, and How."
+  - Authentication: Who are you?
+  - Authorization: What are you allowed to do?
 
 - The 4 Key Components
-- User:Specific person or application and has permanent login info (password or keys).
-- Group: A bundle of users. Use this to give permissions to many people at once (e.g., "Admins").
-- You can't put a group inside another group (No nesting).
-- Policy:
-- The "Rulebook."It's a document (JSON format) that explicitly says "Allow" or "Deny" for specific services.
-- You attach these to Users, Groups, or Roles.
-- Role:Temporary access.
-- Like a security badge you put on for a few hours.
-- Not for one specific person; anyone (or any AWS service) who needs it can "assume" the role to get short-term permissions.
+  - User:Specific person or application and has permanent login info (password or keys).
+  - Group: A bundle of users. Use this to give permissions to many people at once (e.g., "Admins").
+  - You can't put a group inside another group (No nesting).
+  - Policy:
+  - The "Rulebook."It's a document (JSON format) that explicitly says "Allow" or "Deny" for specific services.
+  - You attach these to Users, Groups, or Roles.
+  - Role:Temporary access.
+  - Like a security badge you put on for a few hours.
+  - Not for one specific person; anyone (or any AWS service) who needs it can "assume" the role to get short-term permissions.
 
 - Authentication & MFA
   - 1. Authentication
