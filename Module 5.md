@@ -41,7 +41,7 @@ If you see a slash and a number, it's just a cheat code telling you how many add
 - **Min size:** `/28` (Gives you just 16 IP addresses).
 - **No overlapping:** If you make multiple subnets, their IP ranges CANNOT overlap.
 
-** The "Minus 5" Rule (SUPER IMPORTANT FOR EXAMS)**
+** The "Minus 5" Rule **
 AWS is greedy and reserves **5 IP addresses** from *every single subnet* you create. You cannot use them! They are used for:
 1. Network address
 2. VPC local router
@@ -52,7 +52,7 @@ AWS is greedy and reserves **5 IP addresses** from *every single subnet* you cre
 **Types of Public IPs**
 - **Auto-assigned Public IP:** AWS just hands you a random IP when you launch a server. (If you stop the server, you lose the IP).
 - **Elastic IP (EIP):** A **static** public IP that belongs to your account. You can move it between servers. 
-  - *Catch:* AWS will charge you extra if you claim an EIP but don't actively attach it to a running server!
+
 
 **Elastic Network Interface (ENI)**
 - It's literally just a **virtual network card**.
